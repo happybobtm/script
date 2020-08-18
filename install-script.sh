@@ -2,7 +2,7 @@
 #warning! decline the GPG/PGP import from spotify
 
 #Install (pacman)
-sudo pacman -S pavucontrol xrandr dmenu graphviz grub-customizer lilypond imagemagick source-highlight dblatex fop w3m lynx xorg-xwininfo feh playerctl flameshot i3-gaps firefox code alacritty lutris pcmanfm gimp bashtop macchanger steam figlet lolcat neofetch xarchiver lib32-mesa lxappearance gnome-boxes gnome-keyring wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader meson systemd dbus gnome-keyring libgnome-keyring -y
+sudo pacman -S pavucontrol arandr dmenu graphviz grub-customizer lilypond imagemagick source-highlight dblatex fop w3m lynx xorg-xwininfo feh playerctl flameshot i3-gaps firefox code alacritty lutris pcmanfm gimp bashtop macchanger steam figlet lolcat neofetch xarchiver lib32-mesa lxappearance gnome-boxes gnome-keyring wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader meson systemd dbus gnome-keyring libgnome-keyring -y
 
 #Nvidia
 # nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
@@ -20,7 +20,7 @@ curl -sS https://download.spotify.com/debian/pubkey.gpg | gpg --import -
 figlet Yay | lolcat
 
 #Echo
-echo warning! decline the GPG/PGP import from spotify
+echo warning! decline the GPG/PGP import from spotify | lolcat
 
 #Install (yay)
 yay -S timeshift lbry lightdm-webkit-theme-aether nerd-fonts-mononoki brave-nightly-bin simplenote discord-canary simplenote cmatrix-git toilet betterdiscordctl-git spotify spicetify-cli picom-tryone-git -y
@@ -98,8 +98,8 @@ figlet Neofetch | lolcat
 
 #Neofetch
 cd ~
-neofetch
 git clone https://github.com/happybobtm/neofetch.git
+neofetch
 rm -rf ~/.config/neofetch/config.conf
 mv ~/neofetch/config.conf ~/.config/neofetch
 cd ~
@@ -109,8 +109,8 @@ figlet Alacritty | lolcat
 
 #Alacritty
 cd ~
-mkdir ~/.config/alacritty
 git clone https://github.com/happybobtm/alacritty.git
+mkdir ~/.config/alacritty
 mv ~/alacritty/alacritty.yml ~/.config/alacritty
 cd ~
 
@@ -119,9 +119,9 @@ figlet .Bahsrc | lolcat
 
 #Bashrc
 cd ~
+git clone https://github.com/happybobtm/.bahsrc.git
 rm -rf .bashrc
 mv ~/bashrc/.bashrc ~
-git clone https://github.com/happybobtm/.bahsrc.git
 cd ~
 
 #Figlet
@@ -160,9 +160,11 @@ figlet Icons | lolcat
 
 #Icons
 cd ~
-mkdir ~/.icons
 git clone https://github.com/happybobtm/icons.git
-cp -a ~/cursor ~/.icons
+mkdir ~/.icons
+cd ~/cursor 
+cp-a ~/.icons
+cp-a ~/.icons
 sudo cp -a ~/icons /usr/share/icons/
 cd ~
 
@@ -188,7 +190,7 @@ cd ~
 figlet gamemode | lolcat
 
 #Echo
-echo pay atention!
+echo pay atention! | lolcat
 
 #Gamemode
 cd ~
@@ -202,7 +204,7 @@ cd ~
 figlet Proton | lolcat
 
 #Echo
-echo pay atention!
+echo pay atention! | lolcat
 
 #Custom Proton
 cd ~
