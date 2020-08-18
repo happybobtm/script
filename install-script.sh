@@ -79,7 +79,7 @@ cd ~
 cd ~
 mkdir ~/.config/alacritty
 git clone https://github.com/happybobtm/alacritty.git
-mv ~/alacritty/alacritty.yml 
+mv ~/alacritty/alacritty.yml ~/.config/alacritty
 cd ~
 
 #
