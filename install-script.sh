@@ -75,9 +75,11 @@ rm -rf ~/.config/neofetch/config.conf
 mv ~/neofetch/config.conf ~/.config/neofetch
 cd ~
 
-#
+#alacritty
 cd ~
+mkdir ~/.config/alacritty
 git clone https://github.com/happybobtm/alacritty.git
+mv ~/alacritty/alacritty.yml 
 cd ~
 
 #
