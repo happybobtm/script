@@ -67,9 +67,12 @@ cd ~
 git clone https://github.com/happybobtm/wallpaper.git
 cd ~
 
-#
+#neofetch
 cd ~
-git clone https://github.com/happybobtm/neofecth.git
+neofetch
+git clone https://github.com/happybobtm/neofetch.git
+rm -rf ~/.config/neofetch/config.conf
+mv ~/neofetch/config.conf ~/.config/neofetch
 cd ~
 
 #
@@ -94,9 +97,6 @@ betterdiscord install -f discord-canary
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 spicetify
-
-#neofetch
-neofecth
 
 #gamemode
 cd ~
