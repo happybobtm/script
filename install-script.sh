@@ -82,23 +82,32 @@ git clone https://github.com/happybobtm/alacritty.git
 mv ~/alacritty/alacritty.yml ~/.config/alacritty
 cd ~
 
-#
+#bashrc
 cd ~
+rm -rf .bashrc
+mv ~/bashrc/.bashrc ~
 git clone https://github.com/happybobtm/.bahsrc.git
 cd ~
 
-#
+#spicetify
 cd ~
 git clone https://github.com/happybobtm/spicetify.git
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+spicetify
+rm -rf ~/.config/spicetify/config.ini
+mkdir ~/.config/spicetify/Themes/dracula
+cd ~/spicetify
+mv config.ini ~/.config/spicetify/
+mv color.ini ~/.config/spicetify/Themes/dracula
+mv user.css ~/.config/spicetify/Themes/dracula
+mv README.md ~/.config/spicetify/Themes/dracula
+cd ~
+spicetify backup apply
 cd ~
 
 #betterdiscord
 betterdiscord install -f discord-canary
-
-#spicetify-cli
-sudo chmod a+wr /opt/spotify
-sudo chmod a+wr /opt/spotify/Apps -R
-spicetify
 
 #gamemode
 cd ~
