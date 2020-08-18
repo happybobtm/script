@@ -106,6 +106,26 @@ cd ~
 spicetify backup apply
 cd ~
 
+#GTK
+cd ~
+git clone https://github.com/happybobtm/gtk.git
+cd ~
+
+#Icons
+cd ~
+git clone https://github.com/happybobtm/icons.git
+cd ~
+
+#Cursor
+cd ~
+git clone https://github.com/happybobtm/cursor.git
+cd ~
+
+#Grub
+cd ~
+ wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash
+cd ~
+
 #betterdiscord
 betterdiscord install -f discord-canary
 
