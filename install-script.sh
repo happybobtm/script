@@ -23,7 +23,7 @@ figlet Yay | lolcat
 echo warning! decline the GPG/PGP import from spotify | lolcat
 
 #Install (yay)
-yay -S timeshift lbry lightdm-webkit-theme-aether minecraft-launcher nerd-fonts-mononoki brave-nightly-bin simplenote discord-canary simplenote cmatrix-git toilet betterdiscordctl-git spotify spicetify-cli picom-tryone-git -y
+yay -S nerd-fonts-complete timeshift lbry lightdm-webkit-theme-aether minecraft-launcher nerd-fonts-mononoki brave-nightly-bin simplenote discord-canary simplenote cmatrix-git toilet betterdiscordctl-git spotify spicetify-cli picom-tryone-git -y
 
 #Figlet
 figlet Mac Address Script | lolcat
