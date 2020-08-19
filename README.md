@@ -12,8 +12,23 @@ This is a post-install script made for arch linux, it install some packages and 
 ```
 nano ~/postinstall-arch-today/install-script.sh
 ```
-#### Uncomment the 7 lines below "#AMD (Radeon)"!
 
+#### Uncomment this lines!
+```
+#sudo pacman -S vulkan-radeon lib32-vulkan-radeon -y
+#cd ~
+#git clone https://github.com/happybobtm/aco.git
+#sudo rm -rf /etc/environment
+#sudo mv ~/aco/environment /etc/environment
+#sudo pacman -Syyu
+#cd ~
+```
+
+#### Comment this line!
+
+```
+nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
+```
 
 ## Runing the Script (Do not run as root)
 ```
