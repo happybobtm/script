@@ -10,7 +10,7 @@
 - Yay
 
 ## AMD users
-- nano(or any other text-editor) "~/postinstall-arch-today/install-script.sh"
+- nano ~/postinstall-arch-today/install-script.sh
 - uncomment the 7 lines below "#AMD (Radeon)"
 
 ## Runing the Script (Do not run as root)
