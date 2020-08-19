@@ -18,6 +18,7 @@ uncomment the 7 lines below "#AMD (Radeon)"
 
 ## Runing the Script (Do not run as root)
 ```
+cd ~
 git clone https://github.com/happybobtm/postinstall-arch-today.git
 sudo chmod u+x ~/postinstall-arch-today/install-script.sh
 cd ~/postinstall-arch-today
