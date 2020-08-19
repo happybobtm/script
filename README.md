@@ -26,8 +26,9 @@ This is a post-install script made for arch linux, it install some packages and 
 ## AMD users
 ```
 nano ~/postinstall-arch-today/install-script.sh
-uncomment the 7 lines below "#AMD (Radeon)"
 ```
+#### Uncomment the 7 lines below "#AMD (Radeon)"!
+
 
 ## Runing the Script (Do not run as root)
 ```
