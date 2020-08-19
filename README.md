@@ -9,6 +9,8 @@ This is a post-install script made for arch linux, it install some packages and 
 - Yay
 
 ## AMD users
+
+##Edit the "install-script.sh" file
 ```
 nano ~/postinstall-arch-today/install-script.sh
 ```
