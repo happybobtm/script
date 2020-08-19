@@ -13,8 +13,9 @@ This is a post-install script made for arch linux, it install some packages and 
 ### Spotify
 ![Spotify](https://i.imgur.com/laf61zr.png)
 ### GTK
-!![GTK]()
+![GTK](https://i.imgur.com/9m3adLA.png)
 ### Grub
+![Grub](https://i.imgur.com/7LUYwTn.gif)
 
 ## To use this script you need:
 - Sudo
@@ -37,5 +38,15 @@ cd ~/postinstall-arch-today
 ./install-script.sh
 ```
 ## Apply Spotify
+### Open your terminal and paste this:
+```
+spicetify backup apply
+```
+### Spotify
+![Spotify](https://i.imgur.com/laf61zr.png)
+
 ## Apply Gtk, Icons and Cursor
-open lxapperance
+### Lxappearance
+![GTK](https://i.imgur.com/lDsP3lK.png)
+![Icons](https://i.imgur.com/sZIsnfA.png)
+![Cursor](https://i.imgur.com/IbxxtWw.png)
