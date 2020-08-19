@@ -1,7 +1,7 @@
 #made by today
 #echo (Text on the screen)
 echo Dependencies: git, yay (AUR helper).
-echo Read this script before runing it!
+echo Read and the Edit script before runing it!
 
 #echo (Text on the screen)
 echo enabling multilib
@@ -19,9 +19,9 @@ sudo pacman -S man pavucontrol lollypop celluloid arandr dmenu graphviz grub-cus
 #Uncomment Nvidia or AMD
 
 #Nvidia
-# nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
+nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
 
-#AMD (Radeon) 
+#AMD (Radeon) /etc/environment
 #sudo pacman -S vulkan-radeon lib32-vulkan-radeon -y
 #cd ~
 #git clone https://github.com/happybobtm/aco.git
