@@ -3,6 +3,11 @@
 ## About this script:
 This is a post-install script made for arch linux, it install some packages and apply some configs
 
+## Dependencies:
+- Sudo
+- Git
+- Yay
+
 ## Screenshots
 ### Script
 ![Script](https://i.imgur.com/6LoDFg1.png)
@@ -16,12 +21,6 @@ This is a post-install script made for arch linux, it install some packages and 
 ![GTK](https://i.imgur.com/9m3adLA.png)
 ### Grub
 ![Grub](https://i.imgur.com/7LUYwTn.gif)
-
-## To run this script you need:
-- Sudo
-- Git
-- Yay
-
 
 ## AMD users
 ```
