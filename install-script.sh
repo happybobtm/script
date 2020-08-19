@@ -6,7 +6,7 @@
 #     |_|\___/ \__,_|\__,_|\__, |                                              #
 #                          |___/                                               #
 ################################################################################
-# A Arch Post-install Script                                                   #
+# An arch post installation script                                             #
 ################################################################################
 # Config By Today                                                              #
 # Discord Tag: Today 刀#0737                                                   #
@@ -17,7 +17,7 @@
 #echo (Text on the screen)
 echo Dependencies: git, yay (AUR helper).
 echo Read and the Edit script before runing it!
-echo AMD GPU users need to comment "nvidia nvidia nvidia-utiils..." and uncomment lines: 25-31
+echo AMD GPUS users should uncomment the 7 lines below "#AMD (Radeon)"
 
 #echo (Text on the screen)
 echo enabling multilib
@@ -32,7 +32,7 @@ cd ~
 #Install (pacman)
 sudo pacman -S man pavucontrol lollypop celluloid arandr dmenu graphviz grub-customizer lilypond imagemagick source-highlight dblatex fop w3m lynx xorg-xwininfo feh playerctl flameshot i3-gaps firefox alacritty lutris pcmanfm gimp bashtop macchanger steam figlet lolcat neofetch xarchiver lib32-mesa lxappearance gnome-boxes gnome-keyring wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader meson systemd dbus gnome-keyring libgnome-keyring -y
 
-#AMD GPU users need to comment "nvidia nvidia nvidia-utiils..." and uncomment lines: 25-31
+#AMD GPUS users should uncomment the 7 lines below "#AMD (Radeon)"
 
 #Nvidia
 nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
