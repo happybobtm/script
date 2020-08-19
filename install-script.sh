@@ -15,8 +15,7 @@
 ################################################################################
 
 #echo (Text on the screen)
-echo Dependencies: git, yay (AUR helper).
-echo Read and the Edit script before runing it!
+echo Read the README.md and the script before runing it!
 echo AMD GPUS users should uncomment the 7 lines below "#AMD (Radeon)"
 
 #echo (Text on the screen)
