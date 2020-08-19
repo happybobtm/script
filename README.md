@@ -1,8 +1,20 @@
 # Today
 
+##About this script:
+This is a post-install script made for arch linux, it install some packages and apply some configs
+
 ## Screenshots
+### Script
 ![Script](https://i.imgur.com/6LoDFg1.png)
+### Desktop
 ![Desktop](https://i.imgur.com/k3jk9lb.png)
+### Terminal Emulator
+![Terminal Emulator](https://i.imgur.com/UVCmcDL.png)
+### Spotify
+![Spotify](https://i.imgur.com/laf61zr.png)
+### GTK
+!![GTK]()
+### Grub
 
 ## To use this script you need:
 - Sudo
@@ -24,3 +36,6 @@ sudo chmod u+x ~/postinstall-arch-today/install-script.sh
 cd ~/postinstall-arch-today
 ./install-script.sh
 ```
+## Apply Spotify
+## Apply Gtk, Icons and Cursor
+open lxapperance

@@ -198,8 +198,8 @@ cd ~
 git clone https://github.com/happybobtm/icons.git
 mkdir ~/.icons
 cd ~/cursor 
-cp-a ~/icons/Tela-purple ~/.icons
-cp-a ~/icons/Tela-purple-dark ~/.icons
+cp -a ~/icons/Tela-purple ~/.icons
+cp -a ~/icons/Tela-purple-dark ~/.icons
 sudo cp -a ~/icons/Tela-purple /usr/share/icons/
 sudo cp -a ~/icons/Tela-purple-dark /usr/share/icons/
 cd ~
