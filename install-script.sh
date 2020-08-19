@@ -1,4 +1,19 @@
-#made by today
+################################################################################
+#    _____         _                                                           #
+#   |_   _|__   __| | __ _ _   _                                               #
+#     | |/ _ \ / _` |/ _` | | | |                                              #                                              
+#     | | (_) | (_| | (_| | |_| |                                              #
+#     |_|\___/ \__,_|\__,_|\__, |                                              #
+#                          |___/                                               #
+################################################################################
+# A Arch Post-install Script                                                   #
+################################################################################
+# Config By Today                                                              #
+# Discord Tag: Today 刀#0737                                                   #
+# Discord Server (Portuguese Only):https://discord.gg/qgBezqH                  #
+# Github: https://github.com/happybobtm                                        #
+################################################################################
+
 #echo (Text on the screen)
 echo Dependencies: git, yay (AUR helper).
 echo Read and the Edit script before runing it!
