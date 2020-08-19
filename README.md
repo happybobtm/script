@@ -8,20 +8,6 @@ This is a post-install script made for arch linux, it install some packages and 
 - Git
 - Yay
 
-## Screenshots
-### Script
-![Script](https://i.imgur.com/6LoDFg1.png)
-### Desktop
-![Desktop](https://i.imgur.com/k3jk9lb.png)
-### Terminal Emulator
-![Terminal Emulator](https://i.imgur.com/UVCmcDL.png)
-### Spotify
-![Spotify](https://i.imgur.com/laf61zr.png)
-### GTK
-![GTK](https://i.imgur.com/9m3adLA.png)
-### Grub
-![Grub](https://i.imgur.com/7LUYwTn.gif)
-
 ## AMD users
 ```
 nano ~/postinstall-arch-today/install-script.sh
@@ -50,3 +36,17 @@ spicetify backup apply
 ![GTK](https://i.imgur.com/lDsP3lK.png)
 ![Icons](https://i.imgur.com/sZIsnfA.png)
 ![Cursor](https://i.imgur.com/IbxxtWw.png)
+
+## Screenshots
+### Script
+![Script](https://i.imgur.com/6LoDFg1.png)
+### Desktop
+![Desktop](https://i.imgur.com/k3jk9lb.png)
+### Terminal Emulator
+![Terminal Emulator](https://i.imgur.com/UVCmcDL.png)
+### Spotify
+![Spotify](https://i.imgur.com/laf61zr.png)
+### GTK
+![GTK](https://i.imgur.com/9m3adLA.png)
+### Grub
+![Grub](https://i.imgur.com/7LUYwTn.gif)
