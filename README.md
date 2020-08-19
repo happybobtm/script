@@ -1,6 +1,6 @@
 # Today
 
-##About this script:
+## About this script:
 This is a post-install script made for arch linux, it install some packages and apply some configs
 
 ## Screenshots
