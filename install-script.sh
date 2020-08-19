@@ -1,11 +1,20 @@
 #made by today
-
-#echo
-echo Dependencies: git, yay (AUR helper), multilib enabled (edit /etc/pacman.conf).
+#echo (Text on the screen)
+echo Dependencies: git, yay (AUR helper).
 echo Read this script before runing it!
 
+#echo (Text on the screen)
+echo enabling multilib
+
+#multilib
+cd ~
+git clone https://github.com/happybobtm/pacman-conf.git
+sudo rm -rf /etc/pacman.conf
+sudo cp ~/pacman-conf/pacman.conf /etc/
+cd ~
+
 #Install (pacman)
-sudo pacman -S pavucontrol lollypop celluloid arandr dmenu graphviz grub-customizer lilypond imagemagick source-highlight dblatex fop w3m lynx xorg-xwininfo feh playerctl flameshot i3-gaps firefox code alacritty lutris pcmanfm gimp bashtop macchanger steam figlet lolcat neofetch xarchiver lib32-mesa lxappearance gnome-boxes gnome-keyring wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader meson systemd dbus gnome-keyring libgnome-keyring -y
+sudo pacman -S man pavucontrol lollypop celluloid arandr dmenu graphviz grub-customizer lilypond imagemagick source-highlight dblatex fop w3m lynx xorg-xwininfo feh playerctl flameshot i3-gaps firefox code alacritty lutris pcmanfm gimp bashtop macchanger steam figlet lolcat neofetch xarchiver lib32-mesa lxappearance gnome-boxes gnome-keyring wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader meson systemd dbus gnome-keyring libgnome-keyring -y
 
 #Nvidia
 # nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
@@ -13,22 +22,22 @@ sudo pacman -S pavucontrol lollypop celluloid arandr dmenu graphviz grub-customi
 #AMD (Radeon) 
 #sudo pacman -S vulkan-radeon lib32-vulkan-radeon -y
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Spotify | lolcat
 
 #Spotify 
 curl -sS https://download.spotify.com/debian/pubkey.gpg | gpg --import -
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Yay | lolcat
 
-#Echo
+#echo (Text on the screen)
 echo warning! decline the GPG/PGP import from spotify | lolcat
 
 #Install (yay)
 yay -S nerd-fonts-complete timeshift lbry lightdm-webkit-theme-aether minecraft-launcher nerd-fonts-mononoki brave-nightly-bin simplenote discord-canary simplenote cmatrix-git toilet betterdiscordctl-git spotify spicetify-cli picom-tryone-git -y
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Mac Address Script | lolcat
 
 #Mac address script
@@ -38,7 +47,7 @@ cd ~/mac-address
 mv ~/mac-address/mac-address.sh ~/
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet i3 | lolcat
 
 #i3-gaps config
@@ -49,7 +58,7 @@ mkdir ~/.config/i3
 mv ~/i3-today-dark-config/config ~/.config/i3
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Bumbleebee Status | lolcat
 
 #Bumblebee-status
@@ -70,7 +79,7 @@ mv weather.py arch-update.py kernel.py playerctl.py ~/.config/bumblebee-status/b
 mv time.py date.py memory.py ~/.config/bumblebee-status/bumblebee_status/modules/core/
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet BetterDiscord | lolcat
 
 #BetterDiscord
@@ -88,7 +97,7 @@ git clone https://github.com/happybobtm/betterdiscord-theme.git
 cp -a ~/betterdiscord-theme ~/.config/BetterDiscord/themes
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Wallpaper | lolcat
 
 #Wallpaper
@@ -96,7 +105,7 @@ cd ~
 git clone https://github.com/happybobtm/wallpaper.git
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Neofetch | lolcat
 
 #Neofetch
@@ -107,7 +116,7 @@ rm -rf ~/.config/neofetch/config.conf
 mv ~/neofetch/config.conf ~/.config/neofetch
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Alacritty | lolcat
 
 #Alacritty
@@ -117,7 +126,7 @@ mkdir ~/.config/alacritty
 mv ~/alacritty/alacritty.yml ~/.config/alacritty
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet .Bahsrc | lolcat
 
 #Bashrc
@@ -127,7 +136,7 @@ rm -rf .bashrc
 mv ~/bashrc/.bashrc ~
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Spicetify | lolcat
 
 #Spicetify
@@ -147,7 +156,7 @@ cd ~
 spicetify backup apply
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet GTK | lolcat
 
 #GTK
@@ -158,7 +167,7 @@ cp -a ~/gtk ~/.themes
 sudo cp -a ~/gtk /usr/share/themes/
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Icons | lolcat
 
 #Icons
@@ -172,7 +181,7 @@ sudo cp -a ~/icons/Tela-purple /usr/share/icons/
 sudo cp -a ~/icons/Tela-purple-dark /usr/share/icons/
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Cursor | lolcat
 
 #Cursor
@@ -182,7 +191,7 @@ cp -a ~/cursor ~/.icons
 sudo cp -a ~/cursor /usr/share/icons/
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Grub | lolcat
 
 #Grub
@@ -190,10 +199,10 @@ cd ~
  wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet gamemode | lolcat
 
-#Echo
+#echo (Text on the screen)
 echo pay atention! | lolcat
 
 #Gamemode
@@ -204,10 +213,10 @@ git checkout 1.5.1 # omit to build the master branch
 ./bootstrap.sh
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet Proton | lolcat
 
-#Echo
+#echo (Text on the screen)
 echo pay atention! | lolcat
 
 #Custom Proton
@@ -217,7 +226,7 @@ sudo chmod +x cproton.sh
 ./cproton.sh
 cd ~
 
-#Figlet
+#figlet (Big text on the screen)
 figlet lightdm | lolcat
 
 #Auto-login lightdm
