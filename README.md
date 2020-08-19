@@ -1,13 +1,10 @@
 # Today
 
 ## Screenshots
-
-![]()
-![]()
-![]()
+![script]()
+![desktop](https://imgur.com/a/N7tTT1B)
 
 ## To use this script you need:
-
 - Sudo
 - Git
 - Yay
