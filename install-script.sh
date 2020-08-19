@@ -169,6 +169,7 @@ cd ~/cursor
 cp-a ~/.icons
 cp-a ~/.icons
 sudo cp -a ~/icons /usr/share/icons/
+sudo cp -a ~/icons /usr/share/icons/
 cd ~
 
 #Figlet
