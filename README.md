@@ -9,12 +9,17 @@
 - Git
 - Yay
 
+
 ## AMD users
-- nano ~/postinstall-arch-today/install-script.sh
-- uncomment the 7 lines below "#AMD (Radeon)"
+```
+nano ~/postinstall-arch-today/install-script.sh
+uncomment the 7 lines below "#AMD (Radeon)"
+```
 
 ## Runing the Script (Do not run as root)
-- git clone https://github.com/happybobtm/postinstall-arch-today.git
-- sudo chmod u+x ~/postinstall-arch-today/install-script.sh
-- cd ~/postinstall-arch-today
--./install-script.sh
+```
+git clone https://github.com/happybobtm/postinstall-arch-today.git
+sudo chmod u+x ~/postinstall-arch-today/install-script.sh
+cd ~/postinstall-arch-today
+./install-script.sh
+```
