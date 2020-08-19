@@ -1,4 +1,4 @@
-# Today
+# Today Arch Post-install Script
 
 ## About this script:
 This is a post-install script made for arch linux, it install some packages and apply some configs
@@ -10,9 +10,9 @@ This is a post-install script made for arch linux, it install some packages and 
 
 ## AMD users
 
-##Edit the "install-script.sh" file
+## Edit the "install-script.sh" file
 ```
-nano ~/postinstall-arch-today/install-script.sh
+nano ~/script/install-script.sh
 ```
 
 #### Uncomment this lines!
@@ -27,7 +27,6 @@ nano ~/postinstall-arch-today/install-script.sh
 ```
 
 #### Comment this line!
-
 ```
 nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-utils
 ```
@@ -35,9 +34,9 @@ nvidia nvidia nvidia-utiils nvidia-settings lib32-nvidia-utils lib32-nvidia-util
 ## Runing the Script (Do not run as root)
 ```
 cd ~
-git clone https://github.com/happybobtm/postinstall-arch-today.git
-sudo chmod u+x ~/postinstall-arch-today/install-script.sh
-cd ~/postinstall-arch-today
+git clone https://github.com/happybobtm/script.git
+sudo chmod u+x ~/script/install-script.sh
+cd ~/script
 ./install-script.sh
 ```
 ## Apply Spotify
