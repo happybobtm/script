@@ -1,7 +1,7 @@
 # Today Arch Post-install Script
 
 ## About this script:
-This is a post-install script made for arch linux, it install some packages and apply some configs
+This is a post-installation script made for Arch Linux, which installs some packages and applies some settings
 
 ## Dependencies:
 - Sudo
@@ -15,7 +15,7 @@ This is a post-install script made for arch linux, it install some packages and 
 nano ~/script/install-script.sh
 ```
 
-#### Uncomment this lines!
+#### Uncomment these lines!
 ```
 #sudo pacman -S vulkan-radeon lib32-vulkan-radeon -y
 #cd ~
@@ -53,6 +53,11 @@ spicetify backup apply
 ![Icons](https://i.imgur.com/sZIsnfA.png)
 ![Cursor](https://i.imgur.com/IbxxtWw.png)
 
+## Discord
+```
+betterdiscordctl install -f canary
+```
+
 ## Screenshots
 ### Script
 ![Script](https://i.imgur.com/6LoDFg1.png)
@@ -66,3 +71,5 @@ spicetify backup apply
 ![GTK](https://i.imgur.com/9m3adLA.png)
 ### Grub
 ![Grub](https://i.imgur.com/7LUYwTn.gif)
+### Discord
+![Discord](https://i.imgur.com/ZWpcI2o.png)
