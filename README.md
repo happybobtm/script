@@ -8,7 +8,7 @@
 - Sudo
 - Git
 - Yay
-dit script 
+
 ## AMD users
 - nano(or any other text-editor) "~/postinstall-arch-today/install-script.sh"
 - uncomment the 7 lines below "#AMD (Radeon)"
