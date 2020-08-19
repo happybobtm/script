@@ -17,7 +17,7 @@ This is a post-install script made for arch linux, it install some packages and 
 ### Grub
 ![Grub](https://i.imgur.com/7LUYwTn.gif)
 
-## To use this script you need:
+## To run this script you need:
 - Sudo
 - Git
 - Yay
